@@ -9,7 +9,7 @@ git reset --soft HEAD^
 git reflog
 ```  
 
-1. 特定の時点までファイルを巻き戻す
+2. 特定の時点までファイルを巻き戻す
 ```
 git reser --hard HEAD@{n}
 ``` 

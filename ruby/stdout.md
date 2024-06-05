@@ -1,12 +1,13 @@
-`to_a`  
+- `to_a`  
 配列に変換  
 <br>
 
-`join(sep)`  
+- `join(sep)`  
 配列の要素を文字列sepを間に挟んで連結  
 <br>
 
-`for`
+- `for`  
+繰り返し
 ```
 例
 for i in [1, 2, 3]

@@ -10,6 +10,8 @@
 
 【方法】
 - ログを見てみる
+![スクリーンショット 2024-05-30 22 21 44](https://github.com/minamimishima/TIL/assets/146907532/b64b1810-32c0-4587-abdd-d0d3ebfd841f)
+
  `Parameters: {"q"=>{"s"=>"created_at desc"}}` というパラメータが送られている
 
 - 上記のパラメータを手動で送る

@@ -30,16 +30,16 @@ document.addEventListener('turbo:render', function() {
 ```
 最初は`DOMContentLoaded`を`turbo:load`にしていたが`turbo:render`と競合して無効になってしまった  
 `turbo:render`はエラーでrenderされても表示・非表示ボタンを有効にするため  
-
+<br>
+  
 - フォームのレイアウト崩れを防ぐため`field_with_errors`の設定
 
-Railsはバリデーションエラーがあったフォームを`<div class="field_with_errors">/div>`で囲む  
+Railsはバリデーションエラーがあったフォームを`<div class="field_with_errors"></div>`で囲む  
 これが原因でレイアウトが崩れることがあるので、エラーが出てもdivで囲まないよう設定  
   
 config/application.rbに下記を追記
 ```
 config.action_view.field_error_proc = Proc.new { |html_tag, instance| html_tag }
-
 ```
 
 ### メモ

@@ -32,4 +32,5 @@ end
 ```
 
 ## 参考
+- [Railsガイド](https://railsguides.jp/v7.1/active_storage_overview.html#%E3%83%86%E3%82%B9%E3%83%88)
 - [fixture_file_uploadメソッドを使用してテストコードを書く](https://qiita.com/orange159159/items/f32b4c364071b1f43cb2)

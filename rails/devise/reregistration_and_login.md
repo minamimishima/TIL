@@ -44,15 +44,6 @@ app/views/users/confirm.html.erb
 ```
 <br>
 
-- `active_for_authentication?`メソッドをオーバーライド
-
-app/models/user.rb
-```
-def active_for_authentication?
-  super && (is_deleted == false)
-end
-```
-
 ### 参考
 - [【Rails】 退会機能を論理削除で実装する](https://qiita.com/__Wata16__/items/9e05596afb671e540365)
 - [Rails 退会機能実装](https://zenn.dev/goldsaya/articles/ee812461bbea6b)
